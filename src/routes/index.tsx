@@ -7,7 +7,7 @@ import memory2 from "@/assets/memory-2.jpg";
 import memory3 from "@/assets/memory-3.jpg";
 
 // 👇 Customize these for your friend
-const FRIEND_NAME = "Alex";
+const FRIEND_NAME = "Kamachi";
 const SPECIFIC_SORRY = "I'm sorry I bailed on you and made you feel like you didn't matter.";
 const MEMORIES = [
   { src: memory1, caption: "that night we couldn't stop laughing" },
@@ -267,7 +267,7 @@ function Index() {
       </section>
 
       <footer className="relative z-10 px-6 py-20 text-center">
-        <p className="font-handwritten text-5xl md:text-7xl text-primary animate-fade-up">I miss our ❤️</p>
+        <p className="font-handwritten text-5xl md:text-7xl text-primary animate-fade-up">I miss you ❤️</p>
         <Heart className="mx-auto mt-6 h-5 w-5 text-accent animate-shimmer" fill="currentColor" />
       </footer>
     </div>
